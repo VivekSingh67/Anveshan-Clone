@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+* {
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.body {
+  overflow: hidden;
+}
+
+.headings {
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+  color: #005a48;
+  font-family: "Roboto Slab", serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.Customers-Say {
+  text-align: center;
+  color: #005a48;
+  font-family: "Roboto Slab", serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.containing {
+  padding: 0px 69px;
+}
+
+.card {
+  box-shadow: #e5e7e5 0 0 3px;
+  background-color: #ffffff;
+}
+
+.card-body {
+  padding: 0px 0px 0px 12px !important;
+}
+
+.card-body p {
+  margin-bottom: 2px;
+}
+
+.gram {
+  color: #000000;
+  font-size: 10px !important;
+}
+
+.Kashmiri {
+  font-size: 13px !important;
+  color: #121212;
+}
+
+.star {
+  font-size: 12px !important;
+}
+
+.mrp {
+  font-size: 13px !important;
+  color: #121212;
+}
+
+.dis {
+  font-size: 18.2px;
+  color: #121212;
+  font-weight: 600;
+}
+
+.end a {
+  position: relative;
+  background: #00584b;
+  color: #ffffff;
+  border-radius: 0;
+  font-size: 12px;
+  padding: 7px 19px;
+}
+
+.end {
+  padding: 0;
+  text-align: end;
+}
+
+@media (max-width: 1200px) {
+  .d-flex {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  .card {
+    flex: 0 0 auto;
+    width: calc(100% - 16px);
+    margin-right: 8px;
+  }
+
+  .end {
+    padding: 0px 12px 0px 0px !important;
+  }
+
+  .end a {
+    width: 100%;
+  }
+
+  .end a {
+    padding: 7px 23px;
+  }
+
+  .containing {
+    padding: 0px 6px;
+  }
+
+  .card-content img {
+    position: absolute;
+    bottom: 10% !important;
+    right: 38%;
+  }
+
+  .sale--badge.tagoff {
+    font-size: 7px !important;
+  }
+
+  .value-combos {
+    font-size: 10px !important;
+    width: 30% !important;
+
+  }
+
+  .best-sellers {
+    font-size: 10px !important;
+    width: 30% !important;
+
+
+  }
+}
+
+.card-img-top {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-content img {
+  position: absolute;
+  bottom: 17%;
+  right: 38%;
+}
+
+.card-content h5 {
+  margin: 0;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.card {
+  box-shadow: #e5e7e5 0 0 3px;
+  background-color: #ffffff;
+}
+
+.card-body {
+  padding: 0px 12px;
+}
+
+.card-body p {
+  margin-bottom: 2px;
+}
+
+.card-title {
+  font-size: 14px;
+}
+
+.gram {
+  margin: 1px !important;
+}
+
+.star i {
+  color: #f2cb05;
+}
+
+.sale--badge.tagoff {
+  background: #00584b;
+  color: #fff;
+  top: -1px;
+  right: 8px;
+  opacity: 1;
+  z-index: 2;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 14px;
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+  width: 34px;
+  text-align: center;
+  padding: 6px 3px 3px;
+}
+
+.sale--badge::before {
+  border-color: transparent #009375 #009375 transparent;
+  left: -4px;
+}
+
+.sale--badge::after {
+  border-color: transparent transparent #009375 #009375;
+  right: -4px;
+}
+
+.sale--badge span::after {
+  border: 17px solid;
+  border-width: 13px 17px;
+  border-color: #00584b transparent transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: -27px;
+}
+
+.we-believe {
+  text-align: center;
+  background-color: #f7f7f785;
+}
+
+.we-believe h5 {
+  font-size: 19px;
+  color: #00584b;
+  font-weight: 400;
+}
+
+.we-believe p {
+  font-size: 15px;
+  color: rgba(18, 18, 18, 0.75);
+  font-weight: 400;
+}
+
+.anveshan {
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+  color: #005a48;
+  font-family: "Roboto Slab", serif;
+  font-size: 35px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.center-button {
+  text-align: center;
+}
+
+.button1 {
+  border: none;
+  background: #00584b;
+  color: #fff;
+  width: 21%;
+  padding: 4px 0px;
+  border-radius: 22px;
+  font-size: 14px;
+}
+
+.button2 {
+  border: 1px solid #00584b;
+  background: none;
+  color: #000000;
+  width: 21%;
+  padding: 4px 0px;
+  border-radius: 22px;
+  font-size: 14px;
+}
+
+.button3 {
+  border: 1px solid #00584b;
+  background: none;
+  color: #000000;
+  width: 21%;
+  padding: 4px 0px;
+  border-radius: 22px;
+  font-size: 14px;
+}
+
+.button4 {
+  border: none;
+  background: #00584b;
+  color: #fff;
+  width: 21%;
+  padding: 4px 0px;
+  border-radius: 22px;
+  font-size: 14px;
+}
+
+
+.sliders {
+  margin: 120px 0px;
+  padding: 0px 30px;
+}
+
+.slide-content {
+  position: absolute;
+  bottom: 0px !important;
+  left: 56% !important;
+  color: #fff;
+  width: 35%;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.slide-content h5 {
+  font-size: 28px;
+}
+
+.slide-content p {
+  font-size: 17px;
+}
+
+.slide-content button {
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #ffffff;
+  background: #00584b;
+  width: 60%;
+  padding: 8px 10px;
+  border-radius: 30px;
+  border: none;
+}
+
+@media(min-width:280px) and (max-width:500px) {
+  .sliders {
+    margin: 20px 0px;
+  }
+
+  .slide-content h5 {
+    font-size: 8px !important;
+    font-family: "Roboto Slab", sans-serif;
+
+  }
+
+  .slide-content p {
+    font-size: 6px !important;
+    font-family: "Roboto Slab", sans-serif;
+    margin: 0;
+  }
+
+  .slide-content button {
+    font-size: 4px !important;
+    font-family: "Roboto Slab", sans-serif;
+  }
+
+  .button1,
+  .button2,
+  .button3,
+  .button4 {
+    width: 42% !important;
+  }
+}
+
+@media(min-width:501px) and (max-width:768px) {
+  .sliders {
+    margin: 40px 0px;
+  }
+
+  .slide-content h5 {
+    font-size: 12px;
+
+  }
+
+  .slide-content p {
+    font-size: 8px;
+    margin: 0;
+  }
+
+  .slide-content button {
+    font-size: 6px;
+  }
+
+  .button1,
+  .button2,
+  .button3,
+  .button4 {
+    width: 42% !important;
+  }
+}
+
+@media(min-width:769px) and (max-width:1200px) {
+  .sliders {
+    margin: 90px 0px;
+  }
+
+  .slide-content h5 {
+    font-size: 20px;
+
+  }
+
+  .slide-content p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .slide-content button {
+    font-size: 6px;
+  }
+}
